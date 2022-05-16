@@ -30,4 +30,22 @@ private:
     Ui::MainWindow *ui;
     Function array[];
 };
+#ifndef STRUCT_H
+#define STRUCT_H
+
+#include "mainwindow.h"
+
+struct Function{
+    string region_name;
+    int year;
+    double npg;
+    double birth_rate;
+    double death_rate;
+    double gdw;
+    double urbanisation;
+};
+
+
+#endif // STRUCT_H
+
 #endif // MAINWINDOW_H
