@@ -33,13 +33,15 @@ private slots:
     void on_btn_open_file_clicked();
 
     void on_btn_Column_clicked();
+   
 
 private:
     Ui::MainWindow *ui;
-
-    vector<Region> *vector_table;
+    
+    name_
 
     void CreateTable();
 };
+
 
 #endif // MAINWINDOW_H

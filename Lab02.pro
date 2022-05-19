@@ -9,10 +9,19 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    EntryPoint.cpp \
+    Parsing_File.cpp \
+    Table.cpp \
+    izmer.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
 
 HEADERS += \
+    EntryPoint.h \
+    Parsing_File.h \
+    Struct.h \
+    Table.h \
+    izmer.h \
     mainwindow.h
 
 FORMS += \
